@@ -1,0 +1,61 @@
+body{
+    background-image:url(../assets/c12d4238af8db4b6c094b7b71f76da5d-iphone-7-en-el-escritorio-psd.jpg);
+    background-size:73%;
+}
+
+.contenedor{
+    width:35%;
+    margin:auto;
+    padding:15px;
+    border-radius:3px;
+    background-color:rgb(5, 5, 5, .7);
+}
+
+h1, h2{
+    text-transform:uppercase;
+    text-align:center;
+    color:#fff;
+}
+
+.contenedor .elemento{
+    color:white;
+    width:100%;
+    padding:10px 0px 10px 5px;
+    margin-top:5px;
+    margin-bottom:10px;
+}
+
+.contenedor textarea,.contenedor .elemento{
+    width:99%;
+    background: transparent;
+    border:none;
+    border-bottom:3px solid #fff;
+    margin-bottom:10px;
+    color:white;
+}
+
+.elemento:hover{
+    background:rgba(0, 0, 0, .5);
+    border-radius:3px 3px 0px 0px;
+} 
+
+::placeholder{
+    color:white;
+}
+
+.boton{
+    background:black;
+    padding:20px;
+    margin:0;
+    width:100%;
+    border:none;
+    letter-spacing:5px;
+    color:white;
+    cursor:pointer;
+}
+
+.boton:hover{
+    background:rgba(58, 58, 58, 1);
+    transition:all .3s;
+}
+
